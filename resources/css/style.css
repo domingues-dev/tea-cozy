@@ -114,6 +114,44 @@ span {
 
 /* ------ Locations ------ */
 
+.locations-container{
+    height: 500px;
+    background-image: url(https://github.com/domingues-dev/tea-cozy/blob/main/resources/images/img-locations-background.jpg?raw=true);
+    padding-top: 70px;
+}
+
+h2{
+    margin: 0 auto;
+}
+
+h3{
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.locations-items-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.locations-item{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 15px 20px;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+span{
+    padding: 15px;
+}
+
+
+
 /* ------ Footer ------ */
 
 

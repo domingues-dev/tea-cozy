@@ -154,6 +154,18 @@ span{
 
 /* ------ Footer ------ */
 
+footer{
+    height: 200px;
+}
+
+footer  h2 {
+    padding-top: 20px;
+}
+
+.copyright{
+    text-align: start;
+}
+
 
 /* ------ Media ------ */
 

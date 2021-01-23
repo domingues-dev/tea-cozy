@@ -17,6 +17,7 @@ header{
     border-bottom: 1px solid seashell;
     align-items: center;
     z-index: 1;
+    top: 0px;
 }
 
 
@@ -36,6 +37,7 @@ nav{
 nav span {
     display: inline-flex;
     padding: 20px 10px;
+    margin-right: 20px;
 }
 
 a{
@@ -49,7 +51,33 @@ a{
 }
 
 /* ------ Banner (Mission) ------ */
+.main{
+    
+    padding-top: 69px;
+    overflow: scroll;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
 
+}
+
+#mission{
+    background-image: url(/resources/images/img-mission-background.jpg);
+    padding-top: 70px;
+    height: 700px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    background: black;
+    margin: auto;
+    width: 100%;
+}
 
 /* ------ Featured teas ------ */
 
